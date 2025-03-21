@@ -22,5 +22,11 @@ namespace App_Club
             Form formulario = new Form3();
             formulario.Show();
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Form3();
+            formulario.Show();
+        }
     }
 }

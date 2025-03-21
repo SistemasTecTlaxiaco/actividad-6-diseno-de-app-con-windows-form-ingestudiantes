@@ -20,3 +20,25 @@ C:\Users\sosa1\source\repos\App Club\App Club\obj\Debug\App_Club.Form10.resource
 C:\Users\sosa1\source\repos\App Club\App Club\bin\Debug\ValidacionesITTL.dll
 C:\Users\sosa1\source\repos\App Club\App Club\bin\Debug\ValidacionesITTL.pdb
 C:\Users\sosa1\source\repos\App Club\App Club\obj\Debug\App Club.csproj.Up2Date
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\bin\Debug\App Club.exe.config
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\bin\Debug\App Club.exe
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\bin\Debug\App Club.pdb
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\bin\Debug\ValidacionesITTL.dll
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\bin\Debug\ValidacionesITTL.pdb
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App Club.csproj.AssemblyReference.cache
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form1.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form10.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form2.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form3.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form4.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form5.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form6.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form7.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form8.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Form9.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App_Club.Properties.Resources.resources
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App Club.csproj.GenerateResource.cache
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App Club.csproj.CoreCompileInputs.cache
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App Club.csproj.Up2Date
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App Club.exe
+C:\Users\sosa1\Desktop\AppClub\actividad-6-diseno-de-app-con-windows-form-ingestudiantes\App Club\App Club\obj\Debug\App Club.pdb

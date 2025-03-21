@@ -47,5 +47,10 @@ namespace App_Club
         
         }
 
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Form formul = new Form1();
+            formul.Show();
+        }
     }
 }

@@ -29,47 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.btninvitado = new System.Windows.Forms.Button();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txt1Form1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnInvitado = new App_Club.RJButton();
+            this.btnlogin = new App_Club.RJButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btninvitado
-            // 
-            this.btninvitado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btninvitado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btninvitado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btninvitado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btninvitado.Location = new System.Drawing.Point(716, 178);
-            this.btninvitado.Name = "btninvitado";
-            this.btninvitado.Size = new System.Drawing.Size(114, 43);
-            this.btninvitado.TabIndex = 0;
-            this.btninvitado.Text = "Invitado";
-            this.btninvitado.UseVisualStyleBackColor = true;
-            this.btninvitado.Click += new System.EventHandler(this.btninvitado_Click);
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLogin.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(878, 178);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(140, 43);
-            this.btnLogin.TabIndex = 1;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label1
             // 
@@ -131,19 +101,59 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
             // 
+            // btnInvitado
+            // 
+            this.btnInvitado.BackColor = System.Drawing.Color.Red;
+            this.btnInvitado.BackgroundColor = System.Drawing.Color.Red;
+            this.btnInvitado.BorderColor = System.Drawing.Color.Black;
+            this.btnInvitado.BorderRadius = 15;
+            this.btnInvitado.BorderSize = 2;
+            this.btnInvitado.FlatAppearance.BorderSize = 0;
+            this.btnInvitado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInvitado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInvitado.ForeColor = System.Drawing.Color.White;
+            this.btnInvitado.Location = new System.Drawing.Point(689, 184);
+            this.btnInvitado.Name = "btnInvitado";
+            this.btnInvitado.Size = new System.Drawing.Size(150, 40);
+            this.btnInvitado.TabIndex = 8;
+            this.btnInvitado.Text = "INVITADO";
+            this.btnInvitado.TextColor = System.Drawing.Color.White;
+            this.btnInvitado.UseVisualStyleBackColor = false;
+            this.btnInvitado.Click += new System.EventHandler(this.btnInvitado_Click_1);
+            // 
+            // btnlogin
+            // 
+            this.btnlogin.BackColor = System.Drawing.Color.Red;
+            this.btnlogin.BackgroundColor = System.Drawing.Color.Red;
+            this.btnlogin.BorderColor = System.Drawing.Color.Black;
+            this.btnlogin.BorderRadius = 15;
+            this.btnlogin.BorderSize = 2;
+            this.btnlogin.FlatAppearance.BorderSize = 0;
+            this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlogin.ForeColor = System.Drawing.Color.White;
+            this.btnlogin.Location = new System.Drawing.Point(860, 184);
+            this.btnlogin.Name = "btnlogin";
+            this.btnlogin.Size = new System.Drawing.Size(140, 40);
+            this.btnlogin.TabIndex = 7;
+            this.btnlogin.Text = "LOGIN";
+            this.btnlogin.TextColor = System.Drawing.Color.White;
+            this.btnlogin.UseVisualStyleBackColor = false;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.ClientSize = new System.Drawing.Size(1022, 558);
+            this.Controls.Add(this.btnInvitado);
+            this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txt1Form1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.btninvitado);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -156,14 +166,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btninvitado;
-        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt1Form1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private RJButton btnlogin;
+        private RJButton btnInvitado;
     }
 }
 

@@ -81,5 +81,17 @@ namespace App_Club
         {
 
         }
+
+        private void btnlogin_Click_1(object sender, EventArgs e)
+        {
+            Form formula = new Form2();
+            formula.Show();
+        }
+
+        private void btnInvitado_Click_1(object sender, EventArgs e)
+        {
+            Form formulario=new Form3();
+            formulario.Show();
+        }
     }
 }

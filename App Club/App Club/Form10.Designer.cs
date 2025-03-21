@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.btnRegresar_f10 = new System.Windows.Forms.Button();
+            this.btnMenu = new App_Club.RJButton();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -44,19 +44,25 @@
             this.richTextBox1.Text = "\n\n\n       Tu solicitud ha sido enviada con éxito!\n\n        Mantente al tanto de t" +
     "u confirmación";
             // 
-            // btnRegresar_f10
+            // btnMenu
             // 
-            this.btnRegresar_f10.BackColor = System.Drawing.Color.LightSlateGray;
-            this.btnRegresar_f10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnRegresar_f10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegresar_f10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar_f10.Location = new System.Drawing.Point(281, 330);
-            this.btnRegresar_f10.Name = "btnRegresar_f10";
-            this.btnRegresar_f10.Size = new System.Drawing.Size(186, 77);
-            this.btnRegresar_f10.TabIndex = 2;
-            this.btnRegresar_f10.Text = "Regresar al Menú Principal";
-            this.btnRegresar_f10.UseVisualStyleBackColor = false;
-            this.btnRegresar_f10.Click += new System.EventHandler(this.btnRegresar_f10_Click);
+            this.btnMenu.BackColor = System.Drawing.Color.DarkBlue;
+            this.btnMenu.BackgroundColor = System.Drawing.Color.DarkBlue;
+            this.btnMenu.BorderColor = System.Drawing.Color.GhostWhite;
+            this.btnMenu.BorderRadius = 15;
+            this.btnMenu.BorderSize = 3;
+            this.btnMenu.FlatAppearance.BorderSize = 0;
+            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu.ForeColor = System.Drawing.Color.White;
+            this.btnMenu.Location = new System.Drawing.Point(292, 344);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(167, 83);
+            this.btnMenu.TabIndex = 2;
+            this.btnMenu.Text = "Regresar al Menú";
+            this.btnMenu.TextColor = System.Drawing.Color.White;
+            this.btnMenu.UseVisualStyleBackColor = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // Form10
             // 
@@ -64,7 +70,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.ClientSize = new System.Drawing.Size(786, 522);
-            this.Controls.Add(this.btnRegresar_f10);
+            this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form10";
             this.Text = "Form10";
@@ -75,6 +81,6 @@
         #endregion
 
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button btnRegresar_f10;
+        private RJButton btnMenu;
     }
 }

@@ -38,7 +38,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnregresarFo2 = new System.Windows.Forms.Button();
+            this.btnRegresar = new App_Club.RJButton();
             this.group1foem1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -129,20 +129,25 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.UseWaitCursor = true;
             // 
-            // btnregresarFo2
+            // btnRegresar
             // 
-            this.btnregresarFo2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnregresarFo2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.btnregresarFo2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnregresarFo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnregresarFo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnregresarFo2.Location = new System.Drawing.Point(761, 25);
-            this.btnregresarFo2.Name = "btnregresarFo2";
-            this.btnregresarFo2.Size = new System.Drawing.Size(120, 36);
-            this.btnregresarFo2.TabIndex = 8;
-            this.btnregresarFo2.Text = "Regresar";
-            this.btnregresarFo2.UseVisualStyleBackColor = false;
-            this.btnregresarFo2.Click += new System.EventHandler(this.btnregresarFo2_Click);
+            this.btnRegresar.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnRegresar.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnRegresar.BorderColor = System.Drawing.Color.White;
+            this.btnRegresar.BorderRadius = 10;
+            this.btnRegresar.BorderSize = 3;
+            this.btnRegresar.FlatAppearance.BorderSize = 0;
+            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegresar.ForeColor = System.Drawing.Color.Black;
+            this.btnRegresar.Location = new System.Drawing.Point(748, 25);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(150, 40);
+            this.btnRegresar.TabIndex = 8;
+            this.btnRegresar.Text = "REGRESAR";
+            this.btnRegresar.TextColor = System.Drawing.Color.Black;
+            this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // Form2
             // 
@@ -150,7 +155,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.ClientSize = new System.Drawing.Size(926, 453);
-            this.Controls.Add(this.btnregresarFo2);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.group1foem1);
@@ -175,6 +180,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnregresarFo2;
+        private RJButton btnRegresar;
     }
 }
